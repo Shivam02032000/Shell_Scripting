@@ -22,6 +22,17 @@ newVar=${myVar/Buddy/Shivam}
 echo "New string after replacing the variable is------------ $newVar"
 
 
+-----------------------------------------------------------------------------------------------------
+
+Output:-
+
+Length of the myVar is 23
+Upper case is----- HEY BUDDY, HOW ARE YOU?
+Lower case is----- hey buddy, how are you?
+New string after replacing the variable is------------ Hey Shivam, How are you?
+After slice myVar -------- Buddy
+After slice newVar -------- Shivam
+
 #To slice a string:- To take out something from string
 
 echo "After slice myVar -------- ${myVar:4:5}"
